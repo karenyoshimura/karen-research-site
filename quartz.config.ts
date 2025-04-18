@@ -1,11 +1,12 @@
-import { QuartzConfig } from "./quartz/plugins/types"
+import { QuartzConfig } from "@quartz/schema"
 
 const config: QuartzConfig = {
   projectRoot: ".",
+  ignorePatterns: ["node_modules", ".git", ".github"],
 
   siteMetadata: {
     title: "Karen Yoshimura",
-    description: "Researcher | Writer | Diaspora & Memory Studies",
+    description: "Researcher | Writer | Diaspora Studies",
     author: "Karen Yoshimura",
     email: "karenyoshimura1@gmail.com",
     domain: "https://karenyoshimura.github.io/karen-research-site",
