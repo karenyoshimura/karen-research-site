@@ -17,20 +17,26 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v2
+
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
-      - run: npm install -g pnpm
-      - run: pnpm install
-      - run: pnpm quartz build
-      - uses: actions/upload-pages-artifact@v2
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build Quartz site
+        run: pnpm quartz build
+
+      - name: Upload static site to GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
 
