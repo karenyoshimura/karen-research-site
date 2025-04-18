@@ -1,0 +1,1 @@
+> “To consent not to be a single being.” – Édouard Glissant
