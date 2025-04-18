@@ -10,9 +10,20 @@ permissions:
   pages: write
   id-token: write
 
+
+
+
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
+
+
+
+
+
+
+
 
 jobs:
   build:
