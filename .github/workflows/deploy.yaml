@@ -35,11 +35,11 @@ jobs:
       - name: Build Quartz site
         run: pnpm quartz build
 
-     - name: Upload static site to GitHub Pages artifact
-  uses: actions/upload-artifact@v3
-  with:
-    name: public-artifact
-    path: public
+      - name: Upload static site to GitHub Pages artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: public-artifact
+          path: public
 
   deploy:
     needs: build
