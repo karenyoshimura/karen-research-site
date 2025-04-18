@@ -1,6 +1,6 @@
 # Dionne Brand
 
-**Field:** Caribbean Literature, Feminist Thought
+**Field:** Caribbean Literature, Feminist Thought 
 
 **Key Concepts:** Diaspora, Embodied Memory, The Poetics of Absence
 
