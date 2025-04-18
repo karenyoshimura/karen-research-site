@@ -1,8 +1,5 @@
-import { QuartzConfig } from "./types"
-
-const config: QuartzConfig = {
+const config = {
   projectRoot: ".",
-  ignorePatterns: ["node_modules", ".git", ".github"],
 
   siteMetadata: {
     title: "Karen Yoshimura",
