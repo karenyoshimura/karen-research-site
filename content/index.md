@@ -1,8 +1,7 @@
 # Welcome to My Research Portfolio
 
-This is the digital garden of Karen Yoshimura—exploring diasporic identity, memory, and literature through interdisciplinary research and writing.
+This is Karen Yoshimura's research portfolio -- exploring diasporic identity, memory, and literature through interdisciplinary research and writing.
 
 ## Explore:
 - [[Themes]]
 - [[Thinkers]]
-- [[ZineFragments]]
