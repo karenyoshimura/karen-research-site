@@ -1,9 +1,11 @@
-const config = {
+import { QuartzConfig } from "./quartz/plugins/types"
+
+const config: QuartzConfig = {
   projectRoot: ".",
 
   siteMetadata: {
     title: "Karen Yoshimura",
-    description: "Researcher | Writer | Diaspora Studies",
+    description: "Researcher | Writer | Diaspora & Memory Studies",
     author: "Karen Yoshimura",
     email: "karenyoshimura1@gmail.com",
     domain: "https://karenyoshimura.github.io/karen-research-site",
