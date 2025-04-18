@@ -1,15 +1,15 @@
 import { QuartzConfig } from "./types"
 
-export const config: QuartzConfig = {
+const config: QuartzConfig = {
   projectRoot: ".",
   ignorePatterns: ["node_modules", ".git", ".github"],
 
   siteMetadata: {
     title: "Karen Yoshimura",
-    description: "Researcher | Writer | Diaspora & Memory Studies",
+    description: "Researcher | Writer | Diaspora Studies",
     author: "Karen Yoshimura",
     email: "karenyoshimura1@gmail.com",
-    domain: "https://yourusername.github.io/karen-research-site", // Replace with your actual link
+    domain: "https://karenyoshimura.github.io/karen-research-site",
   },
 
   theme: {
@@ -19,7 +19,7 @@ export const config: QuartzConfig = {
     },
     colors: {
       light: {
-        primary: "#5C2D91", // Change to your preferred shade
+        primary: "#5C2D91"
       },
     },
   },
@@ -35,3 +35,5 @@ export const config: QuartzConfig = {
     "linkPreviews",
   ],
 }
+
+export default config
